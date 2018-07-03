@@ -11,4 +11,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+USER_BASE_PATH="$(python -m site --user-base)"
+export PATH=$USER_BASE_PATH:$PATH
+
 alias gup="gitup"
