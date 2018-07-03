@@ -17,5 +17,7 @@ export PATH=$USER_BASE_PATH:$PATH
 alias gup="gitup"
 alias gbda='git branch --no-color --merged | command grep -vE "^(\*|\s*(master|develop|dev)\s*$)" | command xargs -n 1 git branch -d'
 
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+fpath=(/usr/local/share/zsh-completions $fpath)
 
 eval "$(hub alias -s)"
