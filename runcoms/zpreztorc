@@ -35,11 +35,11 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'prompt' \
-  'history-substring-search' \
   'osx' \
   'homebrew' \
-  'git'
+  'git' \
+  'history-substring-search' \
+  'prompt' \
 
 #
 # Autosuggestions
