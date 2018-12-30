@@ -14,6 +14,7 @@ fi
 USER_BASE_PATH="$(python -m site --user-base)"
 export PATH=$USER_BASE_PATH:$PATH
 
+alias z='fasd_cd -d'
 alias c='code .'
 alias gg="git gui &"
 alias gup="gitup"
