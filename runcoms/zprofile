@@ -17,8 +17,8 @@ fi
 # Editors
 #
 
-export EDITOR='subl -n -w'
-export VISUAL='subl -n -w'
+export EDITOR='code -n -w'
+export VISUAL='code -n -w'
 export PAGER='less'
 
 #
