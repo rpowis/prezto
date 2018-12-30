@@ -15,6 +15,7 @@ USER_BASE_PATH="$(python -m site --user-base)"
 export PATH=$USER_BASE_PATH:$PATH
 
 alias c='code .'
+alias gg="git gui &"
 alias gup="gitup"
 alias gbda='git branch --no-color --merged | command grep -vE "^(\*|\s*(master|develop|dev)\s*$)" | command xargs -n 1 git branch -d'
 
