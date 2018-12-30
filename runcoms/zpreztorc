@@ -39,6 +39,7 @@ zstyle ':prezto:load' pmodule \
   'homebrew' \
   'docker' \
   'git' \
+  'node' \
   'history-substring-search' \
   'prompt' \
 
